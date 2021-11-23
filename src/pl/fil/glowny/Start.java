@@ -21,7 +21,7 @@ public class Start {
     }
 
     private static void testWhile() {
-        int i = 24;
+        int i = 1240;
         while (i < 10) {
             i++;
             System.out.println("Wykonuję coś dla i równego : " + i);
