@@ -13,7 +13,7 @@ public class Start {
     }
 
     private static void testDoWhile() {
-        int i = 24;
+        int i = 12;
         do {
             i++;
             System.out.println("Wykonuję coś dla i równego : " + i);
@@ -21,7 +21,7 @@ public class Start {
     }
 
     private static void testWhile(){
-        int i = 24;
+        int i = 12;
         while(i < 10) {
             i++;
             System.out.println("Wykonuję coś dla i równego : " + i);
