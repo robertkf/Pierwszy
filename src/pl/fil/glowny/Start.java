@@ -13,16 +13,16 @@ public class Start {
     }
 
     private static void testDoWhile() {
-        int i = 24;
+        int i = 240;
         do {
             i++;
             System.out.println("Wykonuję coś dla i równego : " + i);
         } while (i < 10);
     }
 
-    private static void testWhile(){
+    private static void testWhile() {
         int i = 24;
-        while(i < 10) {
+        while (i < 10) {
             i++;
             System.out.println("Wykonuję coś dla i równego : " + i);
         }
@@ -41,27 +41,25 @@ public class Start {
 
         int d = a + b;
 
-        System.out.println("Suma " +  a + " i " + b + " wynosi: " + c);
-        System.out.println("Suma " +  a + " i " + b + " wynosi: " + d);
+        System.out.println("Suma " + a + " i " + b + " wynosi: " + c);
+        System.out.println("Suma " + a + " i " + b + " wynosi: " + d);
 
-        df = af/zero;
-        System.out.println("" +  af + " podzielić przez  " + zero + " wynosi: " + df);
+        df = af / zero;
+        System.out.println("" + af + " podzielić przez  " + zero + " wynosi: " + df);
 
-        if (df.isInfinite()){
-            System.out.println("" +  af + " podzielić przez  " + zero + " daje liczbę nieskończoną");
+        if (df.isInfinite()) {
+            System.out.println("" + af + " podzielić przez  " + zero + " daje liczbę nieskończoną");
         }
 
-        if (df.isNaN()){
-            System.out.println("" +  af + " podzielić przez  " + zero + " nie jest liczbą");
+        if (df.isNaN()) {
+            System.out.println("" + af + " podzielić przez  " + zero + " nie jest liczbą");
         } else {
-            System.out.println("" +  af + " podzielić przez  " + zero + " nie jest NaN");
+            System.out.println("" + af + " podzielić przez  " + zero + " nie jest NaN");
         }
 
 
-
-
-        d = a/zero;
-        System.out.println("" +  a + " podzielić przez  " + zero + " wynosi: " + d);
+        d = a / zero;
+        System.out.println("" + a + " podzielić przez  " + zero + " wynosi: " + d);
 
         Float fi = Float.NaN;
     }
@@ -100,19 +98,18 @@ public class Start {
         String cos = "";
 
         while (in.hasNext()) {
-            cos =  in.next();
+            cos = in.next();
             daneWejsciowe = daneWejsciowe + " " + cos;
 
             System.out.println("daneWejsciowe: " + daneWejsciowe);
             System.out.println("coś: " + cos);
 
-            if (Objects.equals(cos, "/q")){
+            if (Objects.equals(cos, "/q")) {
                 return;
             }
 
             System.out.println("Wpisz coś kolejnego, zakończ przez '/q'");
         }
-
 
 
     }
