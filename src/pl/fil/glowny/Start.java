@@ -5,9 +5,27 @@ import java.util.Scanner;
 
 public class Start {
     public static void main(String[] args) {
-        wyswietlWhile();
-        wyswietlDoWhile();
-        testLiczb();
+        //wyswielWhile();
+        //wyswietlDoWhile();
+        //testLiczb();
+        testWhile();
+        testDoWhile();
+    }
+
+    private static void testDoWhile() {
+        int i = 12;
+        do {
+            i++;
+            System.out.println("Wykonuję coś dla i równego : " + i);
+        } while (i < 10);
+    }
+
+    private static void testWhile(){
+        int i = 12;
+        while(i < 10) {
+            i++;
+            System.out.println("Wykonuję coś dla i równego : " + i);
+        }
     }
 
     private static void testLiczb() {
